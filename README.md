@@ -171,7 +171,7 @@ MIT
 @software{mnemo2024,
   author = {RavaniRoshan},
   title = {Mnemo: Cognitive Observability Infrastructure for LLM Agents},
-  year = {2024},
+  year = {2026},
   url = {https://github.com/RavaniRoshan/menimo-model}
 }
 ```
