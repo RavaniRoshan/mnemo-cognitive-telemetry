@@ -1,0 +1,15 @@
+{"timestamp": 1778818688.8880348, "event_type": "episode_start", "data": {"agent_name": "simple_coder", "episode_id": "812e24c8-1e86-4676-a35b-7cfa8c4c90c8", "start_time": "2026-05-15T04:18:08.888012"}}
+{"timestamp": 1778818688.8881276, "event_type": "observation", "data": {"content": "Received goal: Implement feature 18", "context": {"env": "test"}}}
+{"timestamp": 1778818688.8881638, "event_type": "memory_read", "data": {"content": "Always use Python for scripts", "category": "language_pref", "score": 0.95}}
+{"timestamp": 1778818688.888196, "event_type": "reasoning", "data": {"text": "I will use Python as requested by memory.", "decision": "choose_python", "confidence": 1.0, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8882718, "event_type": "action", "data": {"action_type": "create_file", "input": {"filename": "main.py"}, "tool": "fs_tool"}}
+{"timestamp": 1778818688.888324, "event_type": "outcome", "data": {"success": true, "output": "File created", "error": null, "metrics": {"ms": 10}}}
+{"timestamp": 1778818688.8883617, "event_type": "observation", "data": {"content": "Looking at file step 1", "context": {}}}
+{"timestamp": 1778818688.8883946, "event_type": "reasoning", "data": {"text": "Need to implement part 1", "decision": "write_code_block_1", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8884299, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8884757, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.888655, "event_type": "observation", "data": {"content": "Looking at file step 2", "context": {}}}
+{"timestamp": 1778818688.8887107, "event_type": "reasoning", "data": {"text": "Need to implement part 2", "decision": "write_code_block_2", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8887532, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.888785, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8888152, "event_type": "success", "data": {"final_state": {"status": "completed", "files_edited": 1}}}

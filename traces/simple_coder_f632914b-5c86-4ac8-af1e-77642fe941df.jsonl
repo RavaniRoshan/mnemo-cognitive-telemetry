@@ -1,0 +1,10 @@
+{"timestamp": 1778818688.889712, "event_type": "episode_start", "data": {"agent_name": "simple_coder", "episode_id": "f632914b-5c86-4ac8-af1e-77642fe941df", "start_time": "2026-05-15T04:18:08.889684"}}
+{"timestamp": 1778818688.891663, "event_type": "observation", "data": {"content": "Received goal: Implement feature 20", "context": {"env": "test"}}}
+{"timestamp": 1778818688.891726, "event_type": "reasoning", "data": {"text": "I will use default language JS.", "decision": "choose_js", "confidence": 0.7, "memory_deps": []}}
+{"timestamp": 1778818688.8917646, "event_type": "action", "data": {"action_type": "create_file", "input": {"filename": "index.js"}, "tool": "fs_tool"}}
+{"timestamp": 1778818688.8918083, "event_type": "outcome", "data": {"success": true, "output": "File created", "error": null, "metrics": {"ms": 12}}}
+{"timestamp": 1778818688.8918536, "event_type": "observation", "data": {"content": "Looking at file step 1", "context": {}}}
+{"timestamp": 1778818688.8918874, "event_type": "reasoning", "data": {"text": "Need to implement part 1", "decision": "write_code_block_1", "confidence": 0.8, "memory_deps": []}}
+{"timestamp": 1778818688.8919199, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8919523, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8919833, "event_type": "success", "data": {"final_state": {"status": "completed", "files_edited": 1}}}

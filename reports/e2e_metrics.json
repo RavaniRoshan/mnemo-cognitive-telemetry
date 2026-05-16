@@ -1,0 +1,52 @@
+{
+  "aggregate": {
+    "total_traces": 5,
+    "overall_success_rate": 0.8,
+    "avg_steps_to_success": 19.0,
+    "avg_memory_reads": 1.0,
+    "total_failures": 1,
+    "total_contradictions": 2
+  },
+  "per_trace": [
+    {
+      "episode_id": "e2e_agent_debf95c1-efcb-4f50-8d9e-cc7830d310cc",
+      "success": true,
+      "total_steps": 23,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "e2e_agent_d39947a1-d9fb-4c30-b139-e083c0efb440",
+      "success": true,
+      "total_steps": 23,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "e2e_agent_bbed8236-7921-4c3a-922b-f2276325d9c6",
+      "success": true,
+      "total_steps": 19,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "e2e_agent_65e6fd65-bbd0-4331-a16f-533fe81560bd",
+      "success": true,
+      "total_steps": 19,
+      "memory_read_count": 1,
+      "failure_step": 6,
+      "contradiction_incidents": 2
+    },
+    {
+      "episode_id": "e2e_agent_20d94980-b449-4964-9a8f-6c4182e73724",
+      "success": true,
+      "total_steps": 11,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    }
+  ]
+}

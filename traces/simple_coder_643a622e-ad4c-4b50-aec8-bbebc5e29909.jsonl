@@ -1,0 +1,35 @@
+{"timestamp": 1778818688.8679357, "event_type": "episode_start", "data": {"agent_name": "simple_coder", "episode_id": "643a622e-ad4c-4b50-aec8-bbebc5e29909", "start_time": "2026-05-15T04:18:08.865730"}}
+{"timestamp": 1778818688.8691266, "event_type": "observation", "data": {"content": "Received goal: Implement feature 0", "context": {"env": "test"}}}
+{"timestamp": 1778818688.8693058, "event_type": "memory_read", "data": {"content": "Always use Python for scripts", "category": "language_pref", "score": 0.95}}
+{"timestamp": 1778818688.8693752, "event_type": "reasoning", "data": {"text": "I will use Python as requested by memory.", "decision": "choose_python", "confidence": 1.0, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8694146, "event_type": "action", "data": {"action_type": "create_file", "input": {"filename": "main.py"}, "tool": "fs_tool"}}
+{"timestamp": 1778818688.8694565, "event_type": "outcome", "data": {"success": true, "output": "File created", "error": null, "metrics": {"ms": 10}}}
+{"timestamp": 1778818688.8695064, "event_type": "observation", "data": {"content": "Looking at file step 1", "context": {}}}
+{"timestamp": 1778818688.8695412, "event_type": "reasoning", "data": {"text": "Need to implement part 1", "decision": "write_code_block_1", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8695767, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8696086, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8696399, "event_type": "observation", "data": {"content": "Looking at file step 2", "context": {}}}
+{"timestamp": 1778818688.8696716, "event_type": "reasoning", "data": {"text": "Need to implement part 2", "decision": "write_code_block_2", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.869704, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8697352, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8697655, "event_type": "observation", "data": {"content": "Looking at file step 3", "context": {}}}
+{"timestamp": 1778818688.8697958, "event_type": "reasoning", "data": {"text": "Need to implement part 3", "decision": "write_code_block_3", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8698266, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8698573, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8698878, "event_type": "observation", "data": {"content": "Looking at file step 4", "context": {}}}
+{"timestamp": 1778818688.8699203, "event_type": "reasoning", "data": {"text": "Need to implement part 4", "decision": "write_code_block_4", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8699515, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8699818, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8700118, "event_type": "observation", "data": {"content": "Looking at file step 5", "context": {}}}
+{"timestamp": 1778818688.8700442, "event_type": "reasoning", "data": {"text": "Need to implement part 5", "decision": "write_code_block_5", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8700745, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8701055, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8701353, "event_type": "observation", "data": {"content": "Looking at file step 6", "context": {}}}
+{"timestamp": 1778818688.870183, "event_type": "reasoning", "data": {"text": "Need to implement part 6", "decision": "write_code_block_6", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.8702157, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.8702462, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8702784, "event_type": "observation", "data": {"content": "Looking at file step 7", "context": {}}}
+{"timestamp": 1778818688.8703084, "event_type": "reasoning", "data": {"text": "Need to implement part 7", "decision": "write_code_block_7", "confidence": 0.8, "memory_deps": ["language_pref"]}}
+{"timestamp": 1778818688.870339, "event_type": "action", "data": {"action_type": "edit_file", "input": {"lines": 5}, "tool": "editor_tool"}}
+{"timestamp": 1778818688.870369, "event_type": "outcome", "data": {"success": true, "output": "Code written", "error": null, "metrics": {"loc": 5}}}
+{"timestamp": 1778818688.8704002, "event_type": "success", "data": {"final_state": {"status": "completed", "files_edited": 1}}}

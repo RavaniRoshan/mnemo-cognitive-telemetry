@@ -1,0 +1,212 @@
+{
+  "aggregate": {
+    "total_traces": 25,
+    "overall_success_rate": 0.96,
+    "avg_steps_to_success": 25.67,
+    "avg_memory_reads": 0.68,
+    "total_failures": 1,
+    "total_contradictions": 2
+  },
+  "per_trace": [
+    {
+      "episode_id": "simple_coder_e067b6c1-c262-4cd7-81bd-c02ddd885cef",
+      "success": true,
+      "total_steps": 26,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_ef0ad3b5-1b5a-41e7-a62d-a55f4a2182f8",
+      "success": true,
+      "total_steps": 23,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_fc3827b2-2611-4f67-a3e7-8f64ce36423d",
+      "success": true,
+      "total_steps": 11,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_5e5abb52-96d0-489e-a438-d76434df8b05",
+      "success": true,
+      "total_steps": 34,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_2296e8d2-9892-4a78-bf2a-9a1fda2b955f",
+      "success": true,
+      "total_steps": 11,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_643a622e-ad4c-4b50-aec8-bbebc5e29909",
+      "success": true,
+      "total_steps": 35,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_c3618195-8dd2-4834-92b5-e5e15c106a9d",
+      "success": true,
+      "total_steps": 39,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_fe25d6af-1da8-414c-9516-21d2a80af0c7",
+      "success": true,
+      "total_steps": 22,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_2b0a784d-c332-4468-9f5c-4caa00d98c8f",
+      "success": true,
+      "total_steps": 10,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_0808add0-3dda-43cd-88b5-b7110588e916",
+      "success": true,
+      "total_steps": 19,
+      "memory_read_count": 1,
+      "failure_step": 6,
+      "contradiction_incidents": 2
+    },
+    {
+      "episode_id": "simple_coder_f3832379-5fe2-41e0-9974-f3f1efa99036",
+      "success": true,
+      "total_steps": 11,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_3d56da2b-0df3-4be4-baee-c05e4ff46bc9",
+      "success": true,
+      "total_steps": 18,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_0bd60d8f-ff1f-4f6f-b04d-e91eea3ec332",
+      "success": true,
+      "total_steps": 43,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_22e08a11-03b1-4600-9aa7-ee7d134e4c8e",
+      "success": true,
+      "total_steps": 23,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_f632914b-5c86-4ac8-af1e-77642fe941df",
+      "success": true,
+      "total_steps": 10,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_52ab711a-f7e4-458b-ac8d-210746c633c4",
+      "success": true,
+      "total_steps": 43,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_5f50cecc-a4d0-42e6-9a38-87a2702022f0",
+      "success": true,
+      "total_steps": 34,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_53452335-f93f-47c6-9fd1-3d0b2d86dfc7",
+      "success": true,
+      "total_steps": 19,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_3c9edaae-8e2d-428e-af9a-f2da36e81985",
+      "success": true,
+      "total_steps": 19,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_9f76931f-0de0-4456-83dd-2e9c6ad537dd",
+      "success": true,
+      "total_steps": 35,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_cf676c42-fd68-4abe-b0bf-d2eb1093bae7",
+      "success": true,
+      "total_steps": 26,
+      "memory_read_count": 0,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_3cdf57fd-59e0-4c9b-9fab-61f2e3e099f6",
+      "success": true,
+      "total_steps": 39,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_812e24c8-1e86-4676-a35b-7cfa8c4c90c8",
+      "success": true,
+      "total_steps": 15,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_a004569d-27d2-4754-aa76-2f182e74db5d",
+      "success": true,
+      "total_steps": 27,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    },
+    {
+      "episode_id": "simple_coder_ae7f27de-c6e3-49da-a047-ba2ecc35b95f",
+      "success": true,
+      "total_steps": 43,
+      "memory_read_count": 1,
+      "failure_step": -1,
+      "contradiction_incidents": 0
+    }
+  ]
+}

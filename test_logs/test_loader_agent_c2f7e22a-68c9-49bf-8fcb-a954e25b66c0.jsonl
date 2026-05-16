@@ -1,0 +1,3 @@
+{"timestamp": 1778817989.8906279, "event_type": "episode_start", "data": {"agent_name": "test_loader_agent", "episode_id": "c2f7e22a-68c9-49bf-8fcb-a954e25b66c0", "start_time": "2026-05-15T04:06:29.889353"}}
+{"timestamp": 1778817989.891924, "event_type": "action", "data": {"action_type": "db_query", "input": {"query": "SELECT *"}, "tool": "sql_tool"}}
+{"timestamp": 1778817989.8920403, "event_type": "outcome", "data": {"success": true, "output": "results", "error": null, "metrics": {"time": 10}}}
